@@ -16,9 +16,9 @@ It can also be saved to harddisk in json format by calling saveChars().
 ### Example
 
 Here are some examples of the output from it
-![Example](image_alphabet.png)
-![Example](image_text.png)
-![Example](image_time.png)
+![Example](image_alphabet.PNG)
+![Example](image_text.PNG)
+![Example](image_time.PNG)
 ### Requirements
 
 -Python 2
