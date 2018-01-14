@@ -23,6 +23,8 @@ With these characters you can then call BlockPrint() which takes in the message 
 
 NOTE: This script will not work if your font is NOT monospaced. You also need to input the width of each character. It has been hardcoded to have each character be 8 characters wide.
 
+These are functions (in a module, but github doesnt want to add the __init__.py so you'll have to do it yourself) and thus use accordingly
+
 ### Example
 
 Here are some examples of the output from it
