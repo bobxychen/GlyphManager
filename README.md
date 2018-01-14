@@ -28,6 +28,7 @@ These are functions (in a module, but github doesnt want to add the __init__.py 
 ### Example
 
 Here are some examples of the output from it
+![Example] (image_bob.PNG)
 ![Example](image_alphabet.PNG)
 ![Example](image_text.PNG)
 ![Example](image_time.PNG)
