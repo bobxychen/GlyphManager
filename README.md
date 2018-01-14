@@ -13,6 +13,16 @@ It is intended to be flexible and dynamic to be able to map out any font in your
 It will produce a python dictioary with the larger bitmap rendition of each character so you can print it out with the associated function
 It can also be saved to harddisk in json format by calling saveChars().
 
+### Usage
+
+There has already been a precompiled set of characters (A->Z, a->Z, : and " " (space)) for your convience. You may wish to create more by calling the createGlyphs function. 
+
+You can save them by calling the saveChars() function which will add them to the character_set.txt file.
+You can load characters (ie not have to create them on the spot) by calling the loadChars() funciton whic returns a dictionary of characters in the file.
+With these characters you can then call BlockPrint() which takes in the message and character set (at minimum, for more arguments please see code).
+
+NOTE: This script will not work if your font is NOT monospaced. You also need to input the width of each character. It has been hardcoded to have each character be 8 characters wide.
+
 ### Example
 
 Here are some examples of the output from it
@@ -22,6 +32,7 @@ Here are some examples of the output from it
 ### Requirements
 
 -Python 2
+
 -Windows (will not work in other OS)
 
 ### Credits
